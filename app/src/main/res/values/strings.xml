@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">智联车网</string>
+
+
+    <string name="local_update">本地升级</string>
+    <string name="online_update">在线升级</string>
+    <string name="check_update">检查更新</string>
+    <string name="about_vrd">关于VRD</string>
+    <string name="device_info">设备状态</string>
+    <string name="car_master">车主服务</string>
+    <string name="car_team">车队管理</string>
+    <string name="app_info">软件信息</string>
+
+    <string name="service_ip">服务器IP</string>
+    <string name="service_port">服务器端口</string>
+
+    <string name="default_ip">123.207.194.175</string>
+    <string name="default_port">9988</string>
+
+</resources>

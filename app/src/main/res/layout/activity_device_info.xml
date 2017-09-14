@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_default_app_bg">
+
+    <TextView
+        android:id="@+id/device_title"
+        android:layout_marginTop="@dimen/px_140"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_h1_size"
+        android:textStyle="bold"
+        android:text="@string/device_info"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_app_info"
+        android:text="软件状态信息"
+        android:textSize="@dimen/px_65"
+        android:layout_marginTop="@dimen/px_40"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/device_title"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/device_title"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_pg_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressBar1"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:textColor="@android:color/white"
+        android:text="正在获取设备最新状态，请稍候！"/>
+
+    <TextView
+        android:id="@+id/tv_dev_info"
+        android:text="软件状态信息"
+        android:textSize="@dimen/px_65"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@id/tv_app_info"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/tv_enable_jt808"
+        android:layout_width="@dimen/px_450"
+        android:layout_height="@dimen/px_120"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_middle"
+        android:background="@drawable/selector_btn_bg"
+       android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/px_100"
+        android:visibility="gone"
+        android:text="启用部标"/>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/px_96"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="@dimen/px_450"
+            android:layout_height="@dimen/px_120"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_middle"
+            android:background="@drawable/ic_btn_normal"
+            android:text="@string/local_update"/>
+        <Button
+            android:layout_width="@dimen/px_450"
+            android:layout_height="@dimen/px_120"
+            android:layout_marginLeft="@dimen/px_56"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_middle"
+            android:background="@drawable/ic_btn_normal"
+            android:text="@string/online_update"/>
+    </LinearLayout>
+
+</RelativeLayout>

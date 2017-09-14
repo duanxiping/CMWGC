@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/px_10"/>
+
+    <TextView
+        android:id="@+id/item_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网络"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/px_10"/>
+
+    <TextView
+        android:id="@+id/item_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="定位"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/px_10"/>
+
+    <TextView
+        android:id="@+id/item_websocket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="默认链路"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/px_10"/>
+
+    <TextView
+        android:id="@+id/item_jt808"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="部标链路"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/px_10"/>
+
+    <TextView
+        android:id="@+id/item_location_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="定位服务"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/px_10"/>
+
+    <TextView
+        android:id="@+id/item_websocet_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="默认部标服务"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/px_10"/>
+
+    <TextView
+        android:id="@+id/item_jt808_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JT808部标服务"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/px_10"/>
+
+    <TextView
+        android:id="@+id/item_main_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主程序服务"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/px_10"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
